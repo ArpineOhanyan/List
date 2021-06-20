@@ -1,5 +1,4 @@
 #pragma once
-
 #include "node.hpp"
 
 class Iterator
@@ -17,9 +16,9 @@ class Iterator
         Iterator operator++(int);
         Iterator& operator--();
         Iterator operator--(int);
-		int& operator*();
-		Iterator& operator->();
+        int& operator*();
+        Iterator& operator->();
         bool operator==(const Iterator& itr);
-		bool operator!=(const Iterator& itr);
+        bool operator!=(const Iterator& itr);
 };
 
