@@ -1,23 +1,3 @@
-/*
-class Iterator
-{
-    public:
-        Node* iterator;
-    private:
-        void next();
-        void prev();
-    public:
-        Iterator();
-        Iterator(Node* node);
-        Iterator(const Iterator& itr);
-        Iterator& operator++();
-        Iterator operator++(int);
-        Iterator& operator--();
-        Iterator operator--(int);
-        bool operator==(const Iterator& itr);
-};
-
-*/
 #include "iterator.hpp"
 
 void Iterator::next() {
